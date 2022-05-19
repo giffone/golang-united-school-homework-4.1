@@ -5,7 +5,7 @@ func ReverseString(input string) (output string) {
 	lR := len(r)
 	s := make([]rune, lR)
 	i := 0
-	for index := lR - 1; index >= 0; index++ {
+	for index := lR - 1; index >= 0; index-- {
 		s[i] = r[index]
 		i++
 	}
